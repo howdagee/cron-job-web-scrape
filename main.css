@@ -1,0 +1,55 @@
+.subtitle span {
+    font-weight: 500;
+}
+
+.is-danger {
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    right: 20%;
+    padding: 10px 20px;
+}
+
+.rating {
+    color: #e8d53f;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    font-size: 22px;
+}
+
+.card {
+    min-height: 460px;
+}
+
+.card-image {
+    padding:25px 0; 
+    max-width: 280px; 
+    margin:0 auto;
+}
+
+p.has-text-right.price-save {
+    color: #23d160!important;
+    font-weight: 800;
+    margin-top: 20px;
+    position:absolute;
+    bottom:24px;
+    right:24px;
+}
+
+.price-old {
+    text-decoration:line-through;
+    font-weight:100;
+}
+.price-new {
+    font-weight:500;
+}
+
+
+@media screen and (min-width: 769px) {
+
+    .card {
+        min-height: 580px;
+    }
+    
+}

@@ -1,0 +1,21 @@
+{
+  "name": "cron-jobs-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.3.0",
+    "open": "^6.4.0",
+    "opn": "^6.0.0",
+    "puppeteer": "^1.19.0"
+  }
+}
